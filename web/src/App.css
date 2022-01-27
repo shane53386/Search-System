@@ -1,0 +1,136 @@
+.App {
+	padding: 30px;
+}
+
+.App-header {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+.App-title {
+	color: slateblue;
+	font-size: 70px;
+	margin: 40px auto;
+}
+
+.Search-area {
+	position: relative;
+	width: 500px;
+	height: 50px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid dimgrey;
+}
+
+.Search-bar {
+	font-size: 20px;
+	color: dimgrey;
+	border: none;
+	text-align: center;
+	width: 90%;
+	vertical-align: middle;
+}
+
+.Search-bar:focus {
+	outline: none;
+	color: slateblue;
+}
+
+.Search-area:focus-within {
+	border-bottom: 3px solid slateblue;
+}
+
+.Search-bar:focus + .Clear {
+	color: slateblue;
+}
+
+.Clear {
+	color: dimgrey;
+	width: 5%;
+	cursor: pointer;
+	text-align: right;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.Container {
+	padding: 0px 50px;
+}
+
+.Card {
+	width: 900px;
+	padding: 10px 50px;
+	margin: 40px auto;
+}
+
+.Card-title a {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.Card-description {
+	font-size: 20px;
+	color: dimgrey;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.Read-more,
+.Read-more:visited {
+	color: slateblue;
+	transition: 0.3s ease-in-out;
+}
+
+.Read-more:hover {
+	color: dodgerblue;
+}
+
+.Card-tag {
+	font-size: 17px;
+	color: dimgrey;
+	margin-bottom: 20px;
+}
+
+.Card-tag u {
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+.Card-tag u:hover {
+	color: black;
+}
+
+img {
+	border-radius: 15px;
+}
+
+.column {
+	padding: 3px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.Back-to-top i {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	border: none;
+	background-color: transparent;
+	color: orange;
+	font-size: 80px;
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+}
+
+.Back-to-top i:hover {
+	color: orangered;
+}

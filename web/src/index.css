@@ -1,0 +1,11 @@
+* {
+	font-family: "Prompt", sans-serif;
+}
+
+body {
+	overflow-y: overlay;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
