@@ -10,10 +10,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-// app.get("/trips", (req, res) => {
-// 	res.json(db.trips);
-// });
-
 app.get("/trips", (req, res) => {
 	const keyword = req.query.keyword;
 	res.json(
